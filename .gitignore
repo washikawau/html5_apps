@@ -1,7 +1,6 @@
 
 **/node_modules/*
-!/node_modules/enchant.js
-!/node_modules/@types
+!/node_modules/*
 
 dist/
 
