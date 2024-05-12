@@ -1,4 +1,4 @@
-import { enchant, Core, Label, Sprite, Surface } from "enchant.js";
+import { Core, Label, Sprite, Surface } from "enchant.js";
 import Screen from "./Screen"
 import { randfloat } from "../util"
 
