@@ -1,4 +1,7 @@
 
+export async function sleep(millis: number): Promise<void> {
+    await new Promise(resolve => setTimeout(resolve, millis));
+}
 
 export function* seq(len: number) {
     for (let i = 0; i < len; i++) {
